@@ -12,7 +12,7 @@ void setup()
   falcon = loadImage("MillenniumFalconTFA-Fathead.png");
   star = loadImage("Deathstar_negwt.png");
   //initialize the array
-  myparticles=new Particle[200];
+  myparticles=new Particle[20];
   //fill the "apartments" 
   for (int nI=0; nI<myparticles.length; nI++) {
     myparticles[nI]=new NormalParticle();
